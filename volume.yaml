@@ -22,8 +22,6 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
-          - talos01
-          - talos02
           - talos03
 
 ---

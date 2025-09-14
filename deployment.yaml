@@ -13,6 +13,8 @@ spec:
       labels:
         app: jenkins-server
     spec:
+      nodeSelector:
+        kubernetes.io/hostname: talos03
       securityContext:
             fsGroup: 1000 
             runAsUser: 1000
