@@ -75,6 +75,7 @@ spec:
   selector:
     matchLabels:
       app: jenkins-server
+      app.kubernetes.io/name: jenkins
   template:
     metadata:
       labels:
