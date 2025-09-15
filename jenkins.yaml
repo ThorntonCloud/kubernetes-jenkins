@@ -80,6 +80,7 @@ spec:
     metadata:
       labels:
         app: jenkins-server
+        app.kubernetes.io/name: jenkins
     spec:
       nodeSelector:
         kubernetes.io/hostname: talos03
@@ -138,6 +139,7 @@ metadata:
 spec:
   selector: 
     app: jenkins-server
+    app.kubernetes.io/name: jenkins
   type: NodePort  
   ports:
     - name: httpport
