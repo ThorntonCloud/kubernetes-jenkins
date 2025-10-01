@@ -22,7 +22,7 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
-          - talos03
+          - talos02
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
